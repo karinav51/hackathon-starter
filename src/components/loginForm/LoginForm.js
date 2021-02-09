@@ -2,6 +2,7 @@ import React from "react";
 import Spinner from "react-spinkit";
 import { withAsyncAction } from "../../redux/HOCs";
 import "./LoginForm.css";
+import images from "../../assets/images/world health.jpg";
 
 class LoginForm extends React.Component {
   constructor(props) {
@@ -34,6 +35,7 @@ class LoginForm extends React.Component {
             required
             onChange={this.handleChange}
           />
+           
           <label htmlFor="password">Password</label>
           <input
             type="password"
@@ -47,6 +49,7 @@ class LoginForm extends React.Component {
         </form>
         {loading && <Spinner name="circle" color="blue" />}
         {error && <p style={{ color: "red" }}>{error.message}</p>}
+        
       </div>
     );
   }

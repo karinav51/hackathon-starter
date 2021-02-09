@@ -6,6 +6,7 @@ import { Provider } from "react-redux";
 import { ConnectedRouter } from "connected-react-router";
 import App from "./App";
 import { store, history } from "./redux";
+import images from "./assets/images/world health.jpg";
 
 ReactDOM.render(
   <Provider store={store}>
