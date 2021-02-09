@@ -18,14 +18,14 @@ class App extends React.Component {
         <Route
           exact
           path="/profile/:username"
-          component={Profile}
-        />
+          component={Profile} />
+           <Route path="/welcome" component={Welcome}/>
         <Route
           exact
           path="*"
           component={NotFound}
         />
-        <Route path="/welcome" component={Welcome}/>
+        
     
       </Switch>
     );

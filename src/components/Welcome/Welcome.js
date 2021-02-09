@@ -15,5 +15,5 @@ function Welcome(props) {
   }
   
 
-export default withAsyncAction(Welcome);
+export default withAsyncAction("profile", "all" )(Welcome);
 

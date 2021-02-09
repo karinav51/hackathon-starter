@@ -63,7 +63,7 @@ class Messages extends React.Component {
         <div className="NewMessage">
           <input name="message" onChange={this.handleChange} value={this.state.message}/>
           <button onClick={this.newMessageHandler}> Send Message </button>
-        
+          <button>Reset</button>
           
         </div>
       </div>
