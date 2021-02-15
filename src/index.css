@@ -1,10 +1,25 @@
+.cdc-vaccine{
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* position: relative; */
+    float:right; 
+  height:250px;
+  width:250px;
+  right: 150px;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.fact-cov19{
+  height: 200px;
+  width: 200px;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
-
 
 body {
   margin: 0.5em;

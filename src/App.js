@@ -6,7 +6,9 @@ import NotFound from "./pages/NotFound";
 import images from "./assets/images/world health.jpg";
 import Welcome from"./components/Welcome/Welcome";
 
+
 class App extends React.Component {
+
   render() {
     return (
       <Switch>

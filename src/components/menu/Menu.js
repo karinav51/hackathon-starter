@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import "./Menu.css";
 import { withAsyncAction } from "../../redux/HOCs";
 import images from "../../assets/images/cov-19-image.jpg";
+import Profile from "../../pages/Profile";
+
 
 class Menu extends React.Component {
   handleLogout = event => {
@@ -20,6 +22,8 @@ class Menu extends React.Component {
               Logout
             </Link>
             <Link to="/welcome">Profile</Link>
+            <Link to={'/profile/'+this.props.username}>Home</Link>
+            
               
             
             <img src= {images} />

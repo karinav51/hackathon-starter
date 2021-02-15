@@ -3,6 +3,7 @@ import Spinner from "react-spinkit";
 import { withAsyncAction } from "../../redux/HOCs";
 import "./LoginForm.css";
 import images from "../../assets/images/world health.jpg";
+import { Redirect } from "react-router";
 
 class LoginForm extends React.Component {
   constructor(props) {
@@ -15,7 +16,7 @@ class LoginForm extends React.Component {
 
   handleLogin = e => {
     e.preventDefault();
-    this.props.login(this.state);
+    this.props.login(this.state); 
   };
 
   handleChange = e => {

@@ -14,9 +14,12 @@ function Welcome(props) {
     }
     return( <div className="Welcome"> 
              <Menu />
-             <button style={{padding: "20px", backgroundColor:"dodgerblue", color:"white"}}><Link to='/'>Log Out</Link> </button><br/>
+             {/* <button style={{padding: "20px", backgroundColor:"dodgerblue", color:"white"}}><Link to='/'>Log Out</Link> </button><br/> */}
              <button>Like</button>
-             <button>Dislike</button><br/>
+              <button>Dislike</button><br/> 
+
+
+
               
              <h3 style={{color:"white"}}>Welcome{name}!</h3> 
               
