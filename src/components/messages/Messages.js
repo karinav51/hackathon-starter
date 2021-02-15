@@ -69,7 +69,7 @@ class Messages extends React.Component {
         return (
           <li key={value.id}>{value.text}
           <button onClick={() =>this.likeMessageHandler(value.id)}>
-            delete
+            
           </button>
           </li>
         )

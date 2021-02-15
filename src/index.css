@@ -1,13 +1,14 @@
 .cdc-vaccine{
   /* justify-content: space-around; */
   /* align-items: center; */
-  /* position: relative; */
+   position: relative; 
     float:right; 
-  height:250px;
-  width:250px;
-  right: 150px;
+  height:400px;
+  width:400px;
+  right:100px;
   align-items: center;
   justify-content: center;
+  
 
 
 }
